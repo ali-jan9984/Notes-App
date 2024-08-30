@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+    background: black;
+    font-family: "Poppins",sans-serif;
+}
+.title{
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: 700;
+    font-family: sans-serif;
+}
+form {
+    display: flex;
+    flex-direction:column ;
+}
+.create-note{
+    width: 400px;
+    margin: auto;
+}
+.title-input{
+    width: 105%;
+    border:2px  solid rgb(161, 161, 221);
+    padding: 15px  10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+ 
+}
+.note-input{
+    width: 100%;
+    border: 2px solid rgba(161,161,221);
+    padding: 20px;
+    font-size: 20px;
+}
+.add-button{
+    width: 110%;
+    background: blue;
+    padding:15px 10px;
+    color: white;
+    margin-top: 10px;
+    border: none;
+    transition: all ease 0.10s;
+    font-size: 20px;
+}
+.add-button:hover{
+    color:white;
+    background: rgb(126, 163, 198);
+}
+.note-container{
+    border-top: 2px solid rgb(99, 99, 157);
+    margin-top: 10px;
+    margin: 20px 20px ;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.note{
+    background: linear-gradient(120deg,#ddd 0%,rgb(204, 26, 26) 100%);
+    padding: 10px 15px;
+    margin-top: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.card-title{
+    font-weight: 700;
+    font-size: 20px;
+    position:relative;
+}
+.delete-note{
+    position: relative;
+    right: 0;
+    color: red;
+    border: none;
+    right: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor:pointer;
+    width: 18px;
+    background: transparent;
+}
+.no-note{
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
